@@ -56,6 +56,6 @@
     "cz-emoji": "^1.2.1",
     "husky": "^4.2.5",
     "readme-md-generator": "^1.0.0",
-    "semistandard": "14.2.2"
+    "semistandard": "14.2.3"
   }
 }
