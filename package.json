@@ -1,0 +1,61 @@
+{
+  "name": "ngrok-slack-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "this slack bot will connect and share url of ngrok.",
+  "author": "waricoma <waricoma@devne.co>",
+  "contributors": [
+    "6terabyte <rinkei.krt6006@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/waricoma/ngrok-slack-bot#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waricoma/ngrok-slack-bot.git"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "readme": "npx readme-md-generator",
+    "test": "#",
+    "commit": "git cz",
+    "lint": "./node_modules/semistandard/bin/cmd.js --fix ./index.js",
+    "ignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o ./.gitignore"
+  },
+  "keywords": [
+    "Slack",
+    "Ngrok"
+  ],
+  "bugs": {
+    "url": "https://github.com/waricoma/ngrok-slack-bot/issues"
+  },
+  "engines": {
+    "yarn": ">=1.22.4",
+    "node": ">=12.16.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run lint",
+      "pre-push": "#"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-emoji"
+    }
+  },
+  "dependencies": {
+    "@slack/webhook": "^5.0.3",
+    "delay": "^4.4.0",
+    "dotenv": "^8.2.0",
+    "is-online": "^8.4.0",
+    "ngrok": "^3.2.7"
+  },
+  "devDependencies": {
+    "add-text-to-markdown": "^2.0.0",
+    "commitizen": "^4.1.2",
+    "cz-emoji": "^1.2.1",
+    "husky": "^4.2.5",
+    "readme-md-generator": "^1.0.0",
+    "semistandard": "14.2.2"
+  }
+}
