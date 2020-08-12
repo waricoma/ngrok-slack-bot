@@ -14,11 +14,12 @@
     "url": "git+https://github.com/waricoma/ngrok-slack-bot.git"
   },
   "scripts": {
-    "start": "ts-node ./index.ts",
+    "start": "node ./dist/index.js",
+    "build": "ts-node ./build.ts && tsc --lib es2020",
     "readme": "npx readme-md-generator",
     "test": "#",
     "commit": "git cz",
-    "lint": "tsc --noEmit && eslint ./index.ts --config ./.eslintrc.js --no-ignore --cache --color --fix",
+    "lint": "tsc --noEmit && eslint ./*.ts --config ./.eslintrc.js --no-ignore --cache --color --fix",
     "ignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o ./.gitignore"
   },
   "keywords": [
@@ -63,6 +64,7 @@
     "husky": "4.2.5",
     "prettier": "2.0.5",
     "readme-md-generator": "1.0.0",
+    "shelljs": "^0.8.4",
     "ts-node": "8.10.2",
     "typescript": "3.9.7"
   }
