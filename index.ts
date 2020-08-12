@@ -1,11 +1,12 @@
 'use strict';
 
-require('dotenv').config();
+import dotenv from 'dotenv';
+dotenv.config();
 const ENV = process.env;
-const ngrok = require('ngrok');
-const isOnline = require('is-online');
-const delay = require('delay');
-const { IncomingWebhook } = require('@slack/webhook');
+import ngrok from 'ngrok';
+import isOnline from 'is-online';
+import delay from 'delay';
+import { IncomingWebhook } from '@slack/webhook';
 const webhook = new IncomingWebhook(ENV.SLACK_WEBHOOK_URL);
 
 (async () => {
