@@ -48,14 +48,9 @@ const ngrokHandler = (data: string) => {
     return;
   }
 
-  // TODO: why it didn't run?
-  console.log(tunnelsReport);
-
-  /*
   webhook.send({
     text: tunnelsReport,
   });
-  */
 };
 
 (async () => {
