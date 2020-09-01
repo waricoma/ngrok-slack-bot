@@ -1,0 +1,9 @@
+authtoken: foo
+
+tunnels:
+  client:
+    addr: 8000
+    proto: http
+  ssh:
+    addr: 2222
+    proto: tcp
