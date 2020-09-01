@@ -52,11 +52,11 @@
     "delay": "4.4.0",
     "dotenv": "8.2.0",
     "is-online": "8.4.0",
-    "js-yaml": "^3.14.0",
+    "js-yaml": "3.14.0",
     "ngrok": "3.2.7"
   },
   "devDependencies": {
-    "@types/js-yaml": "^3.12.5",
+    "@types/js-yaml": "3.12.5",
     "@typescript-eslint/eslint-plugin": "3.10.1",
     "@typescript-eslint/parser": "3.10.1",
     "add-text-to-markdown": "2.0.0",
@@ -67,7 +67,7 @@
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-prettier": "3.1.4",
     "husky": "4.2.5",
-    "license-checker": "^25.0.1",
+    "license-checker": "25.0.1",
     "only-allow": "1.0.0",
     "prettier": "2.1.1",
     "readme-md-generator": "1.0.0",
