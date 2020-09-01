@@ -14,4 +14,4 @@
 
 • **outDir**: *string* = config.compilerOptions.outDir
 
-*Defined in [build.ts:5](https://github.com/6terabyte/ngrok-slack-bot/blob/8e56e7d/build.ts#L5)*
+*Defined in [build.ts:5](https://github.com/waricoma/ngrok-slack-bot/blob/4ded1f8/build.ts#L5)*

@@ -6,6 +6,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/waricoma/ngrok-slack-bot/graphs/commit-activity)
 [![License: MIT](https://img.shields.io/github/license/waricoma/ngrok-slack-bot)](https://github.com/waricoma/ngrok-slack-bot/blob/master/LICENSE)
 [![Twitter: waritocomatta](https://img.shields.io/twitter/follow/waritocomatta.svg?style=social)](https://twitter.com/waritocomatta)
+[![CircleCI](https://circleci.com/gh/waricoma/email-to-slack.svg?style=svg)](https://circleci.com/gh/waricoma/email-to-slack)
 
 > this slack bot will connect and share url of ngrok.
 

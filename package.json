@@ -16,12 +16,14 @@
   "scripts": {
     "preinstall": "npx only-allow yarn",
     "start": "node ./dist/index.js",
+    "quick": "ts-node index.ts",
     "build": "ts-node ./build.ts && tsc --lib es2020",
     "readme": "npx readme-md-generator",
     "test": "#",
     "commit": "git cz",
     "lint": "tsc --noEmit && eslint ./*.ts --config ./.eslintrc.js --no-ignore --cache --color --fix",
-    "ignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o ./.gitignore"
+    "ignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o ./.gitignore",
+    "document": "typedoc --plugin typedoc-plugin-markdown --out ./docs/ ./*.ts && license-checker --json > ./licenses.json"
   },
   "keywords": [
     "Slack",
@@ -50,19 +52,22 @@
     "delay": "4.4.0",
     "dotenv": "8.2.0",
     "is-online": "8.4.0",
+    "js-yaml": "3.14.0",
     "ngrok": "3.2.7"
   },
   "devDependencies": {
+    "@types/js-yaml": "3.12.5",
     "@typescript-eslint/eslint-plugin": "4.0.1",
     "@typescript-eslint/parser": "4.0.1",
     "add-text-to-markdown": "2.0.0",
     "commitizen": "4.2.1",
     "cz-emoji": "1.2.2",
-    "eslint": "7.7.0",
+    "eslint": "7.8.0",
     "eslint-config-prettier": "6.11.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-prettier": "3.1.4",
     "husky": "4.2.5",
+    "license-checker": "25.0.1",
     "only-allow": "1.0.0",
     "prettier": "2.1.1",
     "readme-md-generator": "1.0.0",
