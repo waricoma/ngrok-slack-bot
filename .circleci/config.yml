@@ -46,7 +46,7 @@ jobs:
 
       - run: yarn run test
 
-      - run: # npx codecov
+      - run: echo "npx codecov"
 
       - run: yarn run build
 
