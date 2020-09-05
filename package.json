@@ -53,7 +53,7 @@
     "dotenv": "8.2.0",
     "is-online": "8.4.0",
     "js-yaml": "3.14.0",
-    "ngrok": "3.2.7"
+    "ngrok": "3.3.0"
   },
   "devDependencies": {
     "@types/js-yaml": "3.12.5",
