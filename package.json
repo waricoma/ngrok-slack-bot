@@ -57,8 +57,8 @@
   },
   "devDependencies": {
     "@types/js-yaml": "3.12.5",
-    "@typescript-eslint/eslint-plugin": "4.1.0",
-    "@typescript-eslint/parser": "4.1.0",
+    "@typescript-eslint/eslint-plugin": "4.1.1",
+    "@typescript-eslint/parser": "4.1.1",
     "add-text-to-markdown": "2.0.0",
     "commitizen": "4.2.1",
     "cz-emoji": "1.2.2",
