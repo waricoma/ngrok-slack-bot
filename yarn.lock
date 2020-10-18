@@ -3146,10 +3146,10 @@ is-number@^7.0.0:
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
 
-is-online@8.5.0:
-  version "8.5.0"
-  resolved "https://registry.yarnpkg.com/is-online/-/is-online-8.5.0.tgz#1f986b00d2bdabce0bda3de6993f06ac8d914b9c"
-  integrity sha512-CcBJAVvhLpluDD0KCXlOXSXGyOWnzCtJf/WuQT4xE1PPMIQkGKoqSkV1xWmgvX1ZNw62B7BZ0AfK4TiK1NTddQ==
+is-online@8.5.1:
+  version "8.5.1"
+  resolved "https://registry.yarnpkg.com/is-online/-/is-online-8.5.1.tgz#bcc6970c6a3fad552a41738c0f0d0737b0ce6e63"
+  integrity sha512-RKyTQx/rJqw2QOXHwy7TmXdlkpe0Hhj7GBsr6TQJaj4ebNOfameZCMspU5vYbwBBzJ2brWArdSvNVox6T6oCTQ==
   dependencies:
     got "^9.6.0"
     p-any "^2.0.0"
