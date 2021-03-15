@@ -53,7 +53,8 @@
     "dotenv": "8.2.0",
     "is-online": "9.0.0",
     "js-yaml": "4.0.0",
-    "ngrok": "3.4.0"
+    "ngrok": "3.4.0",
+    "showip-cli": "^1.0.0"
   },
   "devDependencies": {
     "@types/js-yaml": "3.12.6",
