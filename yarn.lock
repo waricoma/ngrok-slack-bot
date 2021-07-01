@@ -1936,19 +1936,19 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
-dns-packet@^5.1.2:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-5.2.1.tgz#26cec0be92252a1b97ed106482921192a7e08f72"
-  integrity sha512-JHj2yJeKOqlxzeuYpN1d56GfhzivAxavNwHj9co3qptECel27B1rLY5PifJAvubsInX5pGLDjAHuCfCUc2Zv/w==
+dns-packet@^5.2.4:
+  version "5.2.4"
+  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-5.2.4.tgz#e004f409eadfa8ec861964dcb9eb395884fcf67d"
+  integrity sha512-vgu5Bx5IV8mXmh/9cn1lzn+J7okFlXe1vBRp+kCBJXg1nBED6Z/Q4e+QaDxQRSozMr14p/VQmdXwsf/I2wGjUA==
   dependencies:
     ip "^1.1.5"
 
-dns-socket@^4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/dns-socket/-/dns-socket-4.2.1.tgz#c260f46e5649d1c2476763b78e2ee48f7abef531"
-  integrity sha512-fNvDq86lS522+zMbh31X8cQzYQd6xumCNlxsuZF5TKxQThF/e+rJbVM6K8mmlsdcSm6yNjKJQq3Sf38viAJj8g==
+dns-socket@^4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/dns-socket/-/dns-socket-4.2.2.tgz#58b0186ec053ea0731feb06783c7eeac4b95b616"
+  integrity sha512-BDeBd8najI4/lS00HSKpdFia+OvUMytaVjfzR9n5Lq8MlZRSvtbI+uLtx1+XmQFls5wFU9dssccTmQQ6nfpjdg==
   dependencies:
-    dns-packet "^5.1.2"
+    dns-packet "^5.2.4"
 
 doctrine@^3.0.0:
   version "3.0.0"
@@ -3286,15 +3286,15 @@ is-number@^7.0.0:
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
 
-is-online@9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/is-online/-/is-online-9.0.0.tgz#0c51f93499c811f15590301a5a02dabd254e19e5"
-  integrity sha512-P53pg5IPdfE19JB51ckbzl5ZT5/+pQAIX/QfuOx0qQLT1xuk5twnbKSxdbHC9/HrS3o69aX67HkkdYrUH9QYeA==
+is-online@9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/is-online/-/is-online-9.0.1.tgz#71a34202fa826bae6f3ff8bea420c56573448a5f"
+  integrity sha512-+08dRW0dcFOtleR2N3rHRVxDyZtQitUp9cC+KpKTds0mXibbQyW5js7xX0UGyQXkaLUJObe0w6uQ4ex34lX9LA==
   dependencies:
     got "^11.8.0"
     p-any "^3.0.0"
     p-timeout "^3.2.0"
-    public-ip "^4.0.2"
+    public-ip "^4.0.4"
 
 is-plain-object@^2.0.3, is-plain-object@^2.0.4:
   version "2.0.4"
@@ -4966,12 +4966,12 @@ psl@^1.1.28:
   resolved "https://registry.yarnpkg.com/psl/-/psl-1.8.0.tgz#9326f8bcfb013adcc005fdff056acce020e51c24"
   integrity sha512-RIdOzyoavK+hA18OGGWDqUTsCLhtA7IcZ/6NCs4fFJaHBDab+pDDmDIByWFRQJq2Cd7r1OoQxBGKOaztq+hjIQ==
 
-public-ip@^4.0.2:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/public-ip/-/public-ip-4.0.3.tgz#ca96979ddbd3e14d3378fd92b94a657b5696f288"
-  integrity sha512-IofiJJWoZ8hZHBk25l4ozLvcET0pjZSxocbUfh4sGkjidMOm4iZNzzWxezGqGsVY7HuxiK7SkyJKHNeT0YQ7uw==
+public-ip@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/public-ip/-/public-ip-4.0.4.tgz#b3784a5a1ff1b81d015b9a18450be65ffd929eb3"
+  integrity sha512-EJ0VMV2vF6Cu7BIPo3IMW1Maq6ME+fbR0NcPmqDfpfNGIRPue1X8QrGjrg/rfjDkOsIkKHIf2S5FlEa48hFMTA==
   dependencies:
-    dns-socket "^4.2.1"
+    dns-socket "^4.2.2"
     got "^9.6.0"
     is-ip "^3.1.0"
 
