@@ -39,7 +39,9 @@ const getGlobalIP = () => {
   setInterval(async () => {
     if (getGlobalIP() != address) {
       address = getGlobalIP();
-      await webhook.send({ text: `ip changed: ${address}\nhostname: ${os.hostname()}` });
+      await webhook.send({
+        text: `ip changed: ${address}\nhostname: ${os.hostname()}`,
+      });
     }
   }, 5000);
 })();
