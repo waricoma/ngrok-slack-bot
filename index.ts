@@ -9,6 +9,7 @@ import delay from 'delay';
 import { IncomingWebhook } from '@slack/webhook';
 //import ip from 'ip';
 import { exec, execSync } from 'child_process';
+import os from 'os';
 
 const webhook = new IncomingWebhook(ENV.SLACK_WEBHOOK_URL);
 
@@ -23,7 +24,7 @@ const getGlobalIP = () => {
   if ((ENV.X11VNC || '').toLowerCase() === 'true') {
     exec('x11vnc -forever -display :0 -rfbauth ~/.x11vnc/passwd -localhost');
   }
-  let restartMsg = 'server restarted:\n';
+  let restartMsg = `server restarted:\nhostname: ${os.hostname()}\n`;
   let address = getGlobalIP(); //ip.address();
   restartMsg += `ip: ${address}\n`;
   if (ENV.NGROK_TOKEN) {
@@ -38,7 +39,7 @@ const getGlobalIP = () => {
   setInterval(async () => {
     if (getGlobalIP() != address) {
       address = getGlobalIP();
-      await webhook.send({ text: `ip changed: ${address}` });
+      await webhook.send({ text: `ip changed: ${address}\nhostname: ${os.hostname()}` });
     }
   }, 5000);
 })();
