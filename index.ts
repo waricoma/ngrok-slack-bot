@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 const ENV = process.env;
 
+import ngrok from 'ngrok';
 import isOnline from 'is-online';
 import delay from 'delay';
 import { IncomingWebhook } from '@slack/webhook';
