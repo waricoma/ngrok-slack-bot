@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "@slack/webhook": "5.0.3",
-    "delay": "4.4.0",
+    "delay": "5.0.0",
     "dotenv": "^8.2.0",
     "is-online": "8.4.0",
     "ngrok": "3.2.7",
