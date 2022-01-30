@@ -51,7 +51,7 @@
     "@slack/webhook": "5.0.3",
     "delay": "4.4.0",
     "dotenv": "^8.2.0",
-    "is-online": "8.4.0",
+    "is-online": "9.0.1",
     "ngrok": "3.2.7",
     "showip-cli": "^1.0.0",
     "js-yaml": "4.0.0"
