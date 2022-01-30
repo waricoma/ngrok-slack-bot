@@ -50,7 +50,7 @@
   "dependencies": {
     "@slack/webhook": "6.1.0",
     "delay": "5.0.0",
-    "dotenv": "^8.2.0",
+    "dotenv": "14.3.2",
     "is-online": "9.0.1",
     "ngrok": "4.3.0",
     "showip-cli": "^1.0.0",
