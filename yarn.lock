@@ -1996,7 +1996,7 @@ domexception@^1.0.1:
   dependencies:
     webidl-conversions "^4.0.2"
 
-dotenv@^8.2.0:
+dotenv@8.6.0:
   version "8.6.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.6.0.tgz#061af664d19f7f4d8fc6e4ff9b584ce237adcb8b"
   integrity sha512-IrPdXQsk2BbzvCBGBOTmmSH5SodmqZNt4ERAZDmW4CT+tL8VtvinqywuANaFu4bOMWki16nqf0e4oC0QIaDr/g==
@@ -5664,7 +5664,7 @@ shiki@^0.2.7:
     shiki-themes "^0.2.7"
     vscode-textmate "^5.2.0"
 
-showip-cli@^1.0.0:
+showip-cli@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/showip-cli/-/showip-cli-1.0.0.tgz#e9f6f2e1d336663cc98f054cae2b2cc6001cfb9f"
   integrity sha512-3+XEhgWCh7wZ4yNNc7BYeuitgT921+7N5rOTYBYwT8nEXav2sNZ85K4F2OQ9MuUtlrfakGkLbzRAush2FVb24g==
