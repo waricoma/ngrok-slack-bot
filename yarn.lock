@@ -1241,7 +1241,7 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-boxen@^4.0.0, boxen@^4.2.0:
+boxen@^4.0.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/boxen/-/boxen-4.2.0.tgz#e411b62357d6d6d36587c8ac3d5d974daa070e64"
   integrity sha512-eB4uT9RGzg2odpER62bBwSLvUeGC+WbRjjyyFhGsKnc8wp/m0+hQsMUvUe3H2V0D5vw0nBdO1hCJoZo5mKeuIQ==
@@ -4652,13 +4652,12 @@ onigasm@^2.2.5:
   dependencies:
     lru-cache "^5.1.1"
 
-only-allow@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/only-allow/-/only-allow-1.0.0.tgz#1ac662a2ad77f6181240847481b6add201f4ef45"
-  integrity sha512-DQazysAz1cw8JxxYVqg+wXWSm6K7smVqORwS+dtXQWPeRwjsWvRpxMRa5FPiOPxH4e05xCDv12ncAUF8JlVukw==
+only-allow@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/only-allow/-/only-allow-1.2.1.tgz#8f18abd72bf531bc0e59fcfcfca590c425a5ad29"
+  integrity sha512-M7CJbmv7UCopc0neRKdzfoGWaVZC+xC1925GitKH9EAqYFzX9//25Q7oX4+jw0tiCCj+t5l6VZh8UPH23NZkMA==
   dependencies:
-    boxen "^4.2.0"
-    which-pm-runs "^1.0.0"
+    which-pm-runs "^1.1.0"
 
 opencollective-postinstall@^2.0.2:
   version "2.0.3"
@@ -6570,6 +6569,11 @@ which-pm-runs@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/which-pm-runs/-/which-pm-runs-1.0.0.tgz#670b3afbc552e0b55df6b7780ca74615f23ad1cb"
   integrity sha1-Zws6+8VS4LVd9rd4DKdGFfI60cs=
+
+which-pm-runs@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/which-pm-runs/-/which-pm-runs-1.1.0.tgz#35ccf7b1a0fce87bd8b92a478c9d045785d3bf35"
+  integrity sha512-n1brCuqClxfFfq/Rb0ICg9giSZqCS+pLtccdag6C2HyufBrh3fBOiy9nb6ggRMvWOVH5GrdJskj5iGTZNxd7SA==
 
 which@^1.2.14, which@^1.2.9, which@^1.3.1:
   version "1.3.1"
